@@ -1,5 +1,9 @@
 # FACT-Fast-and-Active-Coordinate-Initialization
 Open source code for our paper FACT: Fast and Active Coordinate Initialization for Vision-based Drone Swarm.
+
+**2024/12 Our paper has been accepted by RAL!!!**
+
+[IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/10803028) | [Preprint on arxiv](https://arxiv.org/abs/2403.13455)
 ![image](https://github.com/user-attachments/assets/e203391c-b6ac-434f-9231-0f6a0f44bee2)
 ![image](https://github.com/user-attachments/assets/51964882-5fae-4d8b-957a-9272f8109d2a)
 
@@ -7,6 +11,20 @@ Open source code for our paper FACT: Fast and Active Coordinate Initialization f
 This repository contains the code for our paper FACT: Fast and Active Coordinate Initialization for Vision-based Drone Swarm. We provide the code for the simulation. The code base is still under development for easier deployment and use. We will keep updating the code base and provide more detailed instructions.
 
 The simulation and trajectory planning part of the code is based on our previous work [Ego-Planner](https://github.com/ZJU-FAST-Lab/EGO-Planner-v2).
+
+If you use our code in your own research, please cite as
+```BibTex
+@ARTICLE{10803028,
+  author={Li, Yuan and Zhao, Anke and Wang, Yingjian and Xu, Ziyi and Zhou, Xin and Xu, Chao and Zhou, Jinni and Gao, Fei},
+  journal={IEEE Robotics and Automation Letters}, 
+  title={FACT: Fast and Active Coordinate Initialization for Vision-Based Drone Swarms}, 
+  year={2025},
+  volume={10},
+  number={2},
+  pages={931-938},
+  keywords={Robots;Robot kinematics;Drones;Estimation;Pose estimation;Planning;Collision avoidance;Optimization;Sensors;Global navigation satellite system;Aerial systems;perception and autonomy;swarm robotics;vision-based navigation},
+  doi={10.1109/LRA.2024.3518101}}
+```
 
 ## Prerequisites
 We developed the code with Ubuntu 20.04 and ROS Noetic. It might work with older distributions, but we recommend using Ubuntu 20.04 and ROS Noetic for simplicity. We recommend using computers with NVIDIA GPUs with CUDA installed. The code has been tested on two laptops with NVIDIA GTX 1660 Ti-MaxQ and RTX 3070.
